@@ -18,7 +18,7 @@ game.PlayerEntity = me.ObjectEntity.extend({
     update: function() {
         if(me.input.isKeyPressed("right")) {
             this.vel.x += this.accel.x * me.timer.tick;
-        }
+        }     
         else {
             this.vel.x = 0;
         }

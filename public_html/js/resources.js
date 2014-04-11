@@ -4,8 +4,10 @@ game.resources = [
 	 * @example
 	 * {name: "example", type:"image", src: "data/img/example.png"},
 	 */
-
-	/* Atlases 
+        { name: "background-tiles", type: "image", src: "data/img/background-tiles.png" },
+	{ name: "player1-spritesheet", type: "image", src: "data/img/player1-spritesheet.png" },
+        { name: "solid-tile", type: "image", src: "data/img/solid-tile.png" }, 
+    /* Atlases 
 	 * @example
 	 * {name: "example_tps", type: "tps", src: "data/img/example_tps.json"},
 	 */
@@ -15,7 +17,7 @@ game.resources = [
 	 * {name: "example01", type: "tmx", src: "data/map/example01.tmx"},
 	 * {name: "example01", type: "tmx", src: "data/map/example01.json"},
  	 */
-
+        { name: "level01", type: "tmx", src: "data/map/level01.tmx" }
 	/* Background music. 
 	 * @example
 	 * {name: "example_bgm", type: "audio", src: "data/bgm/", channel : 1},
